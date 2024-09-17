@@ -1,0 +1,106 @@
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: grey;
+    min-height: 100vh;
+    border:10px solid#1D1E4C;
+
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.top_section h1{
+    font-size:60px;
+    font-weight: bold;
+}
+.top_section h4{
+    font-size: 20px;
+    text-align: end;
+}
+.image_container{
+    border-radius: 50%;
+    overflow: hidden;
+    color: #1d1e4c;
+    text-transform: uppercase;
+}
+.image_container,
+img{
+    width: 300px;
+    height: 320px;
+    
+
+}
+.about_section,
+img{
+    width: 300px;
+    height: 320px;
+    float: right;
+}*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container{
+    background-color: grey;
+    min-height: 100vh;
+    border:10px solid#1D1E4C;
+    padding: 15px; /* Add padding to create space around the content */
+  }
+  .content{
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black; /* Set the background color to black */
+    padding: 20px; /* Add padding to create space within the top section */
+  }
+  .top_section h1{
+    font-size:60px;
+    font-weight: bold;
+    color: white; /* Set the text color to white for better visibility */
+  }
+  .top_section h4{
+    font-size: 20px;
+    text-align: end;
+    color: white; /* Set the text color to white for better visibility */
+  }
+  .image_container{
+    border-radius: 50%;
+    overflow: hidden;
+    color: #1d1e4c;
+    text-transform: uppercase;
+    float: left; /* Make the image float left */
+  }
+  .image_container,
+  img{
+    width: 300px;
+    height: 320px;
+  }
+  .about_section{
+    margin-left: 340px; /* Increase the margin to add more space */
+    border: 1px solid #1D1E4C; /* Add a border to the about section */
+    padding: 20px; /* Add padding to create space within the about section */
+  }
+  .about_section,
+  img{
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .about_section p {
+    font-size: 18px; /* Increase the font size of the paragraph */
+  }
